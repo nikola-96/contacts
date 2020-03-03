@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <ContactList />
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col>
+          <ContactList />
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
